@@ -1,4 +1,13 @@
 {
+  "square_rank": 10,
+  "square_nullity": 0,
+  "determinant_inverse_relative_error": 3.330669073875e-15,
+  "image_orthonormal_error": 4.440892098501e-16,
+  "rank_transpose_agrees": true,
+  "rectangular_rank_nullity": 8,
+  "outer_product_rank": 1,
+  "symmetric_orthonormal_error": 6.890212376449e-16,
+  "square_eigen_residual": 1.430810018334e-14,
   "rank": 3,
   "nullity": 2,
   "rank_nullity": 5,
