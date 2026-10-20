@@ -1,0 +1,11 @@
+{
+  "rank": 3,
+  "nullity": 2,
+  "rank_nullity": 5,
+  "null_residual": 2.791200462376e-16,
+  "solution_family_residual": 1.110223024625e-15,
+  "eigen_residual": 0,
+  "reconstruction_residual": 0,
+  "largest_eigenvalue_magnitude": 64.506648456647,
+  "smallest_eigenvalue_magnitude": 0.1170969736626
+}

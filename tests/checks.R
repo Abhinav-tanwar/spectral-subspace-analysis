@@ -1,0 +1,5 @@
+source("R/analysis.R")
+out<-tempfile();dir.create(out);r<-run_analysis(normalizePath("."),out)
+stopifnot(length(r)>0,file.exists(out))
+stopifnot(r$rank_nullity==5,r$null_residual<1e-8,r$solution_family_residual<1e-8,r$eigen_residual<1e-8);stopifnot(ncol(null_basis(diag(3)))==0)
+cat("Validation passed\n")

@@ -1,0 +1,19 @@
+---
+title: "Spectral and Subspace Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+Null spaces, complete solution families, complex eigenpairs, and rank diagnostics.
+
+Run `Rscript scripts/run.R` before rendering. This report displays newly calculated results.
+
+```{r}
+metrics <- jsonlite::fromJSON("results/metrics.json",simplifyVector=FALSE)
+str(metrics)
+```
+
+See the README and data/README.md for data provenance and limitations.
