@@ -1,0 +1,7 @@
+Package: spectralsubspaceanalysis
+Title: Spectral and Subspace Analysis
+Version: 1.0.0
+Authors@R: person("Abhinav", "Tanwar", role = c("aut", "cre"), email = "abhinav.t@careeritjob.com")
+Description: Null spaces, complete solution families, complex eigenpairs, and rank diagnostics.
+License: file LICENSE
+Imports: MASS, jsonlite
